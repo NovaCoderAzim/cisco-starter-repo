@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Banner from './Banner';
+import Exhibit from './Exhibit';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello from Cisco Intern Project!
+      <Banner />
+      <main>
+        <Exhibit title="Your Public IP Address">
+          <p>Loading IP address...</p>
+        </Exhibit>
 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Exhibit title="Latency">
+          <p>Loading latency data...</p>
+        </Exhibit>
+      </main>
     </div>
   );
 }

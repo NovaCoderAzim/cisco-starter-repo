@@ -1,0 +1,15 @@
+/* src/Exhibit.css */
+
+.exhibit {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .exhibit h2 {
+    margin-bottom: 10px;
+  }
+  
